@@ -31,11 +31,11 @@ fetch -url=http://images.cnblogs.com/cnblogs_com/yjf512/201206/20120614221545764
 output:
 
 ```
-the target_list is [http:  images.cnblogs.com cnblogs_com yjf512 201206 201206142215457646.png]fetching http://images.cnblogs.com/cnblogs_com/yjf512/201206/201206142215457646.png
+fetching http://images.cnblogs.com/cnblogs_com/yjf512/201206/201206142215457646.png
 fetch success
 the response url:
 
-http://oa8dpdexh.bkt.clouddn.com//test2016-08-18 19:22:39.416431907 +0800 CST
+http://oa8dpdexh.bkt.clouddn.com//201206142215457646.png
 
 ```
 
