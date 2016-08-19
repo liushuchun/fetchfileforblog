@@ -17,8 +17,8 @@ var (
 	//指定抓取保存到空间的文件的key指
 	key    = "test" + time.Now().String()
 	domain = "http://oa8dpdexh.bkt.clouddn.com/"
-	accKey = "acckeyxxx"
-	secKey = "secxxx"
+	accKey = "你的access key"
+	secKey = "你的secret key"
 )
 
 func main() {
@@ -41,7 +41,7 @@ func main() {
 	if err != nil {
 		fmt.Println("bucket.Fetch failed:", err)
 	} else {
-		fmt.Println("fetch success\nthe response url:\n")
+		fmt.Println("fetch success\nthe response url:")
 		fmt.Println(domain + "/" + key)
 	}
 
