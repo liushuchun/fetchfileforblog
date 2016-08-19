@@ -11,16 +11,16 @@
 可以直接clone下来，之后
 ```
 go build fetch.go
+
 也可以直接 go get 下来
 再go install
 ```
 
-## 三、添加路径
-把当前路径 curpath加入你的.zshrc,活着bash_profile中
+## 三、安装
+把文件复制到/usr/local/bin/即可
 ```
-如果是build到当前目录，则需要这一步，
-添加到.zshrc
-export PATH=$PATH:curpath
+cp fetch /usr/local/bin/
+
 ```
 
 # 用法
